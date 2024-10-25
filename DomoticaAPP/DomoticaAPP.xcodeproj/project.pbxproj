@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB1976142BE3BE1300F000DC /* DomoticaAPPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1976132BE3BE1300F000DC /* DomoticaAPPApp.swift */; };
+		FB1976162BE3BE1300F000DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1976152BE3BE1300F000DC /* ContentView.swift */; };
+		FB1976182BE3BE1400F000DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB1976172BE3BE1400F000DC /* Assets.xcassets */; };
+		FB19761C2BE3BE1400F000DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB19761B2BE3BE1400F000DC /* Preview Assets.xcassets */; };
+		FB19762A2BE3C07E00F000DC /* VistaLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1976292BE3C07E00F000DC /* VistaLogin.swift */; };
+		FB19762C2BE3C0B300F000DC /* VistaRegistrazione.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB19762B2BE3C0B300F000DC /* VistaRegistrazione.swift */; };
+		FB19762E2BE3C12A00F000DC /* VistaProfilo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB19762D2BE3C12A00F000DC /* VistaProfilo.swift */; };
+		FB1976302BE3C15D00F000DC /* VistaInput1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB19762F2BE3C15D00F000DC /* VistaInput1.swift */; };
+		FB1976322BE3C17100F000DC /* SettingVista.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1976312BE3C17100F000DC /* SettingVista.swift */; };
+		FB1976342BE3C3E500F000DC /* SettingLOGO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1976332BE3C3E500F000DC /* SettingLOGO.swift */; };
+		FB19763B2BE3DAC400F000DC /* VistaInput2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB19763A2BE3DAC400F000DC /* VistaInput2.swift */; };
+		FB8A66032C357CD80085D5A7 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8A66022C357CD80085D5A7 /* ContentView2.swift */; };
+		FB8A66052C357D2A0085D5A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8A66042C357D2A0085D5A7 /* ViewController.swift */; };
+		FB8A66072C357D520085D5A7 /* OutlinedTextViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8A66062C357D520085D5A7 /* OutlinedTextViewRepresentable.swift */; };
+		FB8A660B2C357E940085D5A7 /* linedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8A660A2C357E940085D5A7 /* linedTextView.swift */; };
+		FBC13B3E2C2974190083E6DC /* VistaChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC13B3D2C2974190083E6DC /* VistaChat.swift */; };
+		FBC13B402C2994B40083E6DC /* SettingVistaFIRM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC13B3F2C2994B40083E6DC /* SettingVistaFIRM.swift */; };
+		FBC13B422C299E3E0083E6DC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC13B412C299E3E0083E6DC /* User.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB1976102BE3BE1300F000DC /* DomoticaAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DomoticaAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1976132BE3BE1300F000DC /* DomoticaAPPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomoticaAPPApp.swift; sourceTree = "<group>"; };
+		FB1976152BE3BE1300F000DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB1976172BE3BE1400F000DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB1976192BE3BE1400F000DC /* DomoticaAPP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DomoticaAPP.entitlements; sourceTree = "<group>"; };
+		FB19761B2BE3BE1400F000DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB1976292BE3C07E00F000DC /* VistaLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaLogin.swift; sourceTree = "<group>"; };
+		FB19762B2BE3C0B300F000DC /* VistaRegistrazione.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaRegistrazione.swift; sourceTree = "<group>"; };
+		FB19762D2BE3C12A00F000DC /* VistaProfilo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaProfilo.swift; sourceTree = "<group>"; };
+		FB19762F2BE3C15D00F000DC /* VistaInput1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaInput1.swift; sourceTree = "<group>"; };
+		FB1976312BE3C17100F000DC /* SettingVista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVista.swift; sourceTree = "<group>"; };
+		FB1976332BE3C3E500F000DC /* SettingLOGO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingLOGO.swift; sourceTree = "<group>"; };
+		FB19763A2BE3DAC400F000DC /* VistaInput2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaInput2.swift; sourceTree = "<group>"; };
+		FB8A66022C357CD80085D5A7 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		FB8A66042C357D2A0085D5A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB8A66062C357D520085D5A7 /* OutlinedTextViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlinedTextViewRepresentable.swift; sourceTree = "<group>"; };
+		FB8A660A2C357E940085D5A7 /* linedTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linedTextView.swift; sourceTree = "<group>"; };
+		FBC13B3D2C2974190083E6DC /* VistaChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaChat.swift; sourceTree = "<group>"; };
+		FBC13B3F2C2994B40083E6DC /* SettingVistaFIRM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVistaFIRM.swift; sourceTree = "<group>"; };
+		FBC13B412C299E3E0083E6DC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB19760D2BE3BE1300F000DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB1976072BE3BE1300F000DC = {
+			isa = PBXGroup;
+			children = (
+				FB1976122BE3BE1300F000DC /* DomoticaAPP */,
+				FB1976112BE3BE1300F000DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB1976112BE3BE1300F000DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB1976102BE3BE1300F000DC /* DomoticaAPP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB1976122BE3BE1300F000DC /* DomoticaAPP */ = {
+			isa = PBXGroup;
+			children = (
+				FB8A66012C357CA10085D5A7 /* LOGO */,
+				FB1976222BE3BE4A00F000DC /* Root */,
+				FB1976232BE3BE6200F000DC /* App */,
+				FB1976272BE3BF2000F000DC /* Core */,
+				FB1976242BE3BE8100F000DC /* Profilo */,
+				FB1976262BE3BED500F000DC /* Componenti */,
+				FB1976252BE3BE8B00F000DC /* Modello */,
+				FB1976172BE3BE1400F000DC /* Assets.xcassets */,
+				FB1976192BE3BE1400F000DC /* DomoticaAPP.entitlements */,
+				FB19761A2BE3BE1400F000DC /* Preview Content */,
+			);
+			path = DomoticaAPP;
+			sourceTree = "<group>";
+		};
+		FB19761A2BE3BE1400F000DC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FB19761B2BE3BE1400F000DC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FB1976222BE3BE4A00F000DC /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				FB1976152BE3BE1300F000DC /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		FB1976232BE3BE6200F000DC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FB1976132BE3BE1300F000DC /* DomoticaAPPApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FB1976242BE3BE8100F000DC /* Profilo */ = {
+			isa = PBXGroup;
+			children = (
+				FB19762D2BE3C12A00F000DC /* VistaProfilo.swift */,
+			);
+			path = Profilo;
+			sourceTree = "<group>";
+		};
+		FB1976252BE3BE8B00F000DC /* Modello */ = {
+			isa = PBXGroup;
+			children = (
+				FBC13B412C299E3E0083E6DC /* User.swift */,
+			);
+			path = Modello;
+			sourceTree = "<group>";
+		};
+		FB1976262BE3BED500F000DC /* Componenti */ = {
+			isa = PBXGroup;
+			children = (
+				FB19762F2BE3C15D00F000DC /* VistaInput1.swift */,
+				FB19763A2BE3DAC400F000DC /* VistaInput2.swift */,
+				FB1976312BE3C17100F000DC /* SettingVista.swift */,
+				FBC13B3D2C2974190083E6DC /* VistaChat.swift */,
+				FBC13B3F2C2994B40083E6DC /* SettingVistaFIRM.swift */,
+				FB1976332BE3C3E500F000DC /* SettingLOGO.swift */,
+			);
+			path = Componenti;
+			sourceTree = "<group>";
+		};
+		FB1976272BE3BF2000F000DC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FB1976282BE3C05A00F000DC /* Autenticazione */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FB1976282BE3C05A00F000DC /* Autenticazione */ = {
+			isa = PBXGroup;
+			children = (
+				FB1976292BE3C07E00F000DC /* VistaLogin.swift */,
+				FB19762B2BE3C0B300F000DC /* VistaRegistrazione.swift */,
+			);
+			path = Autenticazione;
+			sourceTree = "<group>";
+		};
+		FB8A66012C357CA10085D5A7 /* LOGO */ = {
+			isa = PBXGroup;
+			children = (
+				FB8A66022C357CD80085D5A7 /* ContentView2.swift */,
+				FB8A66042C357D2A0085D5A7 /* ViewController.swift */,
+				FB8A66062C357D520085D5A7 /* OutlinedTextViewRepresentable.swift */,
+				FB8A660A2C357E940085D5A7 /* linedTextView.swift */,
+			);
+			path = LOGO;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB19760F2BE3BE1300F000DC /* DomoticaAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB19761F2BE3BE1400F000DC /* Build configuration list for PBXNativeTarget "DomoticaAPP" */;
+			buildPhases = (
+				FB19760C2BE3BE1300F000DC /* Sources */,
+				FB19760D2BE3BE1300F000DC /* Frameworks */,
+				FB19760E2BE3BE1300F000DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DomoticaAPP;
+			productName = DomoticaAPP;
+			productReference = FB1976102BE3BE1300F000DC /* DomoticaAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB1976082BE3BE1300F000DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					FB19760F2BE3BE1300F000DC = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = FB19760B2BE3BE1300F000DC /* Build configuration list for PBXProject "DomoticaAPP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB1976072BE3BE1300F000DC;
+			productRefGroup = FB1976112BE3BE1300F000DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB19760F2BE3BE1300F000DC /* DomoticaAPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB19760E2BE3BE1300F000DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB19761C2BE3BE1400F000DC /* Preview Assets.xcassets in Resources */,
+				FB1976182BE3BE1400F000DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB19760C2BE3BE1300F000DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8A66052C357D2A0085D5A7 /* ViewController.swift in Sources */,
+				FBC13B422C299E3E0083E6DC /* User.swift in Sources */,
+				FB19762C2BE3C0B300F000DC /* VistaRegistrazione.swift in Sources */,
+				FB1976322BE3C17100F000DC /* SettingVista.swift in Sources */,
+				FBC13B3E2C2974190083E6DC /* VistaChat.swift in Sources */,
+				FB8A660B2C357E940085D5A7 /* linedTextView.swift in Sources */,
+				FB1976162BE3BE1300F000DC /* ContentView.swift in Sources */,
+				FB19763B2BE3DAC400F000DC /* VistaInput2.swift in Sources */,
+				FB1976342BE3C3E500F000DC /* SettingLOGO.swift in Sources */,
+				FB1976302BE3C15D00F000DC /* VistaInput1.swift in Sources */,
+				FB19762E2BE3C12A00F000DC /* VistaProfilo.swift in Sources */,
+				FBC13B402C2994B40083E6DC /* SettingVistaFIRM.swift in Sources */,
+				FB8A66032C357CD80085D5A7 /* ContentView2.swift in Sources */,
+				FB19762A2BE3C07E00F000DC /* VistaLogin.swift in Sources */,
+				FB8A66072C357D520085D5A7 /* OutlinedTextViewRepresentable.swift in Sources */,
+				FB1976142BE3BE1300F000DC /* DomoticaAPPApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FB19761D2BE3BE1400F000DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB19761E2BE3BE1400F000DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		FB1976202BE3BE1400F000DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DomoticaAPP/DomoticaAPP.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"DomoticaAPP/Preview Content\"";
+				DEVELOPMENT_TEAM = N3S9UK4Z3Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DomoticaAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB1976212BE3BE1400F000DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DomoticaAPP/DomoticaAPP.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"DomoticaAPP/Preview Content\"";
+				DEVELOPMENT_TEAM = N3S9UK4Z3Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DomoticaAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB19760B2BE3BE1300F000DC /* Build configuration list for PBXProject "DomoticaAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB19761D2BE3BE1400F000DC /* Debug */,
+				FB19761E2BE3BE1400F000DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB19761F2BE3BE1400F000DC /* Build configuration list for PBXNativeTarget "DomoticaAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1976202BE3BE1400F000DC /* Debug */,
+				FB1976212BE3BE1400F000DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB1976082BE3BE1300F000DC /* Project object */;
+}
